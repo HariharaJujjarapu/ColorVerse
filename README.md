@@ -8,6 +8,8 @@ ColorVerse is a React project that allows users to generate different colors wit
 - **Palette Support (Future)**: Different types of color palettes will be available to choose from.
 - **User-friendly Interface**: Simple and intuitive user interface for easy color exploration.
 
+![Screenshot 2024-03-19 202535](https://github.com/HariharaJujjarapu/ColorVerse/assets/147144092/7ca1e52d-faaf-41b5-ba19-bdbf8828f2d6)
+
 ## Installation
 
 To run ColorVerse locally, follow these steps:
