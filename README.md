@@ -1,6 +1,6 @@
 # ColorVerse
 
-ColorVerse is a React project that allows users to generate different colors with a click. It also plans to incorporate various types of color palettes in the future.
+ColorVerse is a React project that allows users to generate different colors with a click. Also in plans to incorporate various types of color palettes in the future.
 
 ## Features
 
