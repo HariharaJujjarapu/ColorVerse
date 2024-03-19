@@ -49,7 +49,7 @@ Contributions are welcome! If you'd like to contribute to ColorVerse, please fol
 
 ## License
 
-This Snake and Ladders game is open-source and distributed under the [MIT License](LICENSE).
+This ColorVerse is open-source and distributed under the [MIT License](LICENSE).
 
 ## Credits
 
