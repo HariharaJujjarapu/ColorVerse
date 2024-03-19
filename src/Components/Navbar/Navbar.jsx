@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link component
 import './Navbar.css';
 import logo from '../../Assets/logo.png';
 
@@ -14,10 +15,10 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-item nav-link" href="#">Random</a>
-                        <a className="nav-item nav-link" href="#">Palette</a>
-                        <a className="nav-item nav-link" href="#">Contact Us</a>
-                        <a className="nav-item nav-link" href="#">About Us</a>
+                        <Link to="/random" className="nav-item nav-link">Random</Link>
+                        <Link to="/palette" className="nav-item nav-link">Palette</Link>
+                        <Link to="/contact" className="nav-item nav-link">Contact Us</Link>
+                        <Link to="/about" className="nav-item nav-link">About Us</Link>
                     </div>
                 </div>
             </div>

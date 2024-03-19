@@ -1,0 +1,16 @@
+/* .component{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.component-1{
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: whitesmoke;
+} */

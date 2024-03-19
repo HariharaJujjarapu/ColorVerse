@@ -1,0 +1,38 @@
+.card-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    text-align: center;
+    margin: 10px;
+    color: whitesmoke;   
+}
+
+.card-child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 10px;
+}
+
+.card-child > div {
+    background-color: var(--random-color);
+    color: whitesmoke;
+    border-radius: 8px; /* Add border radius */
+    padding: 10px; /* Add padding for better appearance */
+}
+
+.card-child > div:nth-child(1) {
+    --random-color: #264653; /* You can set specific colors if needed */
+}
+
+.card-child > div:nth-child(2) {
+    --random-color: #2a9d8f;
+}
+
+.card-child > div:nth-child(3) {
+    --random-color: #e9c46a;
+}
+
+.card-child-child{
+    height:240px
+}
