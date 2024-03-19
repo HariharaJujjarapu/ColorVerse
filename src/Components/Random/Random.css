@@ -1,0 +1,37 @@
+.box {
+    
+    background-color: whitesmoke    ;
+    padding: 20px;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: repeat(12, 1fr);  
+    grid-template-rows: repeat(10, 1fr);
+
+}
+
+.box-1{
+    background-color: whitesmoke;
+    grid-column: 3/7;
+    grid-row: 2/10;
+}
+
+.box-2{
+    background-color: blueviolet;
+    grid-column: 9/11;
+    grid-row: 4/8;
+}
+
+.text-content{
+    margin: 21px;
+}
+
+h1{
+    font-size: 75px;
+}
+
+.box-2{
+    border-radius: 25px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
